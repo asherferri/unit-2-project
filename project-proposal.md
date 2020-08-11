@@ -10,7 +10,7 @@ A space events/launch app, with possible expansion to space related news.
 
 ### Wireframes!
 
-![Wireframe](./wireframes.png)
+![Wireframe](./wireframes/wireframes.png)
 
 ### Initial thoughts on app structure
 
