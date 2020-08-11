@@ -9,6 +9,7 @@
     "dev": "nodemon server.js",
     "debugger": "DEBUG=*:* npm run dev"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
