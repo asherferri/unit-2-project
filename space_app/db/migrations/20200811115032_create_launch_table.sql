@@ -6,5 +6,6 @@ CREATE TABLE IF NOT EXISTS launch (
     lsp VARCHAR(255) NOT NULL,
     pad VARCHAR(255) NOT NULL,
     location VARCHAR(255) NOT NULL,
-    cc VARCHAR(255)
+    cc VARCHAR(255),
+    mission TEXT
 );
