@@ -37,7 +37,7 @@ app.get('/', (req, res) => {
 })
 
 //add use to route
-app.use('/launch', spaceRouter)
+app.use('/launches', spaceRouter)
 
 app.use('*', (req, res) => {
     res.status(404).send('Nein Nein not hereee')
