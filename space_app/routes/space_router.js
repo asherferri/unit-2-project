@@ -6,6 +6,9 @@ const spaceRouter = express.Router()
 //     res.send('list of launches go here')
 // })
 
+//gets all
 spaceRouter.get('/', spaceController.index)
+//create launches
+spaceRouter.post('/', spaceController.create)
 
 module.exports = spaceRouter
