@@ -1,6 +1,6 @@
 const db = require('../db/config')
 
-class Launch {
+class Space {
     constructor(launch) {
         this.id = launch.id || null
         this.name = launch.name
@@ -12,7 +12,15 @@ class Launch {
         this.cc = launch.cc
         this.mission = launch.mission || null
     }
+    static getAll() {
+        return db
+        .manyOrNone('SELECT * FROM launch ORDER BY id ASC')
+        .then((launches) => {
+            return launches.map((launch) => new this(launch))
+        })
+    }
 
-
-
+    
 }
+
+module.exports = Space
