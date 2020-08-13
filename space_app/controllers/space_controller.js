@@ -4,8 +4,10 @@ const spaceController = {
     index(req, res, next) {
         Space.getAll()
         .then(launches => {
-            res.json({
-                launches
+            /*json object*/ //res.json({
+                //launches
+            res.render('space/index', {
+                launches,
             })
         }).catch(next)
     },
@@ -23,9 +25,10 @@ const spaceController = {
         })
         .save()
         .then((launch) => {
-            res.json({ launch })
+            /*json object*/ //res.json({ launch })
+            res.redirect('/launches');
         }).catch(next)
-    }
+    },
 
 
 }

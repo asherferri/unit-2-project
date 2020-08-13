@@ -19,6 +19,7 @@ app.use(methodOverride('_method'))
 app.use(express.static('public'))
 app.use(cookieParser())
 
+//our views are in folder views
 app.set('views', 'views')
 app.set('view engine', 'ejs')
 
@@ -33,7 +34,9 @@ app.get('/', (req, res) => {
 //         spaceApp: `this is a spaceApp 🤘🏻`
 //     })
 //sends life signs as html element
-    res.send('<h1>This is a spaceApp</h1>')
+   //res.send('<h1>This is a spaceApp</h1>')
+//sends render of index view
+    res.render('index') 
 })
 
 //add use to route
