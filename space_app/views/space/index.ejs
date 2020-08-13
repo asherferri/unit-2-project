@@ -1,7 +1,8 @@
 <%- include('../partials/boilerplate') %>
 
 <div class="todo-wrapper">
-    <a href="/space/new" class="buttonlike">Add a Launch</a>
+  <!-- we declare the browser live route -->
+    <a href="/launches/new" class="buttonlike">Add a Launch</a>
     <% launches.forEach(launch => { %>
       <div class="todo">
         <div class="category-actions">
