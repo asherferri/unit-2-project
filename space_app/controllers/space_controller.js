@@ -59,7 +59,7 @@ const spaceController = {
             res.redirect(`/launches/${modifiedLaunch.id}`);
           })
           .catch(next)
-      }
+      },
 
     // //test to see if update is passin on terminal
     // update(req, res, next) {
@@ -67,6 +67,16 @@ const spaceController = {
     //     res.send('update here')
     // }
 
+    delete(req, res, next) {
+        Space.getById(req.params.id)
+        .then((launch) => {
+            return launch.delete()
+        })
+        .then(() => {
+            res.redirect('/launches')
+        })
+        .catch(next)
+    }
 
 }
 

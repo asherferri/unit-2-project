@@ -33,5 +33,8 @@ spaceRouter.get('/:id([0-9]+)/edit', spaceController.show, (req, res) => {
     })
 })
 spaceRouter.put('/:id([0-9]+)', spaceController.update)
+//delete
+spaceRouter.delete('/:id([0-9]+)', spaceController.delete)
+
 
 module.exports = spaceRouter

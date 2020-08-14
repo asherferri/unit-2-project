@@ -53,7 +53,9 @@ class Space {
         this).then((launch) => Object.assign(this, launch))
     }
 
-
+    delete() {
+        return db.none('DELETE FROM launch WHERE id = $1', this.id)
+    }
 
 }
 
