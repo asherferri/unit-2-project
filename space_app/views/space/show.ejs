@@ -10,6 +10,8 @@
     <h3>COUNTRY CODE: <%= launch.cc %></h3>
     <p>MISSION: <%= launch.mission %></p>
     
+    <!-- here's delete!!! u need to access the individual -->
+    <!-- record to delete it -->
     <form method="POST" action="/launches/<%= launch.id %>?_method=DELETE">
       <input type="submit" value="Delete this Launch">
     </form>

@@ -1,6 +1,6 @@
 <%- include('../partials/boilerplate') %>
 
-<form method='POST' action='/launches/<%= launch.id %>?_method=PUT'>
+  <form method='POST' action='/launches/<%= launch.id %>?_method=PUT'>
     <input type="text" name="name" placeholder="Name" value="<%= launch.name %>">
     <input type="text" name="launch_date" placeholder="Launch Date" value="<%= launch.launch_date %>">
     <input type="text" name="launch_time" placeholder="Launch Time" value="<%= launch.launch_time %>">
