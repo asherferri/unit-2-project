@@ -1,4 +1,17 @@
-Asher / 08/10/2020 
+### Asher / 08/10/2020 
+
+## Link to Heroku Deployed App:
+
+https://quiet-castle-48675.herokuapp.com/
+
+## Link to initial repo started 08/11/2020: 
+
+https://github.com/asherferri/unit-2-project
+
+## Link to final repo with HEROKU started 08/14/2020:
+
+https://github.com/asherferri/unit-2-project-with-heroku
+
 
 (DISCLAIMER : the following information is subject to change based on developing phases and dev. brain capacity. )
 
