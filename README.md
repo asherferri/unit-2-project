@@ -88,10 +88,10 @@ A space events/launch logging app, with possible expansion to space related news
 
 ### Some screenshots of initial milestones
 
-![NotePad](./dev_process_log/screenshots/Screen Shot 2020-08-11 at 13.39.54.png)
-![NotePad](./dev_process_log/screenshots/Screen Shot 2020-08-11 at 14.45.01.png)
-![NotePad](./dev_process_log/screenshots/Screen Shot 2020-08-11 at 15.51.34.png)
-![NotePad](./dev_process_log/screenshots/Screen Shot 2020-08-12 at 13.34.47.png)
+![NotePad](./dev_process_log/screenshots/ScreenShot2020-08-11at13.39.54.png)
+![NotePad](./dev_process_log/screenshots/ScreenShot2020-08-11at14.45.01.png)
+![NotePad](./dev_process_log/screenshots/ScreenShot2020-08-11at15.51.34.png)
+![NotePad](./dev_process_log/screenshots/ScreenShot2020-08-12at13.34.47.png)
 
 ### The notepad process
 
