@@ -86,6 +86,13 @@ A space events/launch logging app, with possible expansion to space related news
 - BH brain capacity, time management, and a shton of GIFD.
 - reset.css template.
 
+### Some screenshots of initial milestones
+
+![NotePad](./dev_process_log/screenshots/Screen Shot 2020-08-11 at 13.39.54.png)
+![NotePad](./dev_process_log/screenshots/Screen Shot 2020-08-11 at 14.45.01.png)
+![NotePad](./dev_process_log/screenshots/Screen Shot 2020-08-11 at 15.51.34.png)
+![NotePad](./dev_process_log/screenshots/Screen Shot 2020-08-12 at 13.34.47.png)
+
 ### The notepad process
 
 ![NotePad](./dev_process_log/screenshots/page1.jpg)
@@ -97,3 +104,5 @@ A space events/launch logging app, with possible expansion to space related news
 ![NotePad](./dev_process_log/screenshots/page7.jpg)
 ![NotePad](./dev_process_log/screenshots/page8.jpg)
 ![NotePad](./dev_process_log/screenshots/page9.jpg)
+![SOmePics](./dev_process_log/screenshots/process1.jpg)
+![SOmePics](./dev_process_log/screenshots/process2.jpg)
