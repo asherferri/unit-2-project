@@ -39,7 +39,7 @@ A space events/launch logging app, with possible expansion to space related news
 - SQL
 - EJS
 
-## Dependencies
+### Dependencies
 
 - "bcryptjs": "^2.4.3",
 - "body-parser": "^1.19.0",
@@ -88,5 +88,12 @@ A space events/launch logging app, with possible expansion to space related news
 
 ### The notepad process
 
-![Wireframe](./wireframes/wireframes.png)
 ![NotePad](./dev_process_log/screenshots/page1.jpg)
+![NotePad](./dev_process_log/screenshots/page2.jpg)
+![NotePad](./dev_process_log/screenshots/page3.jpg)
+![NotePad](./dev_process_log/screenshots/page4.jpg)
+![NotePad](./dev_process_log/screenshots/page5.jpg)
+![NotePad](./dev_process_log/screenshots/page6.jpg)
+![NotePad](./dev_process_log/screenshots/page7.jpg)
+![NotePad](./dev_process_log/screenshots/page8.jpg)
+![NotePad](./dev_process_log/screenshots/page9.jpg)
